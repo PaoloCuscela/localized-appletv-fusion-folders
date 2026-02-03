@@ -12,8 +12,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10759
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -30,8 +29,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           16
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -48,8 +46,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           35
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -66,8 +63,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           80
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -84,8 +80,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           99
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -102,8 +97,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           18
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -120,8 +114,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10751
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -138,8 +131,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10762
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -156,8 +148,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           9648
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -174,8 +165,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10763
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -192,8 +182,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10764
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -210,8 +199,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10765
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -228,8 +216,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10766
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -246,8 +233,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10767
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -264,8 +250,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           10768
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   },
@@ -282,8 +267,7 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           37
-        ],
-        "withOriginalLanguage": "es"
+        ]
       }
     }
   }

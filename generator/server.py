@@ -188,8 +188,7 @@ def generate_custom():
                     "payload": {
                         "type": media_type,
                         "sortBy": "popularity.desc",
-                        "includeGenres": [ int(info.get('id')) ],
-                        "withOriginalLanguage": language
+                        "includeGenres": [ int(info.get('id')) ]
                     }
                 }
             }
