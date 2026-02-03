@@ -150,11 +150,9 @@ def generate_custom():
         if not os.path.exists(type_output_dir):
             os.makedirs(type_output_dir)
 
-        # Output filename: Action.jpg
-        safe_name = secure_filename(genre_name)
-        if not safe_name: safe_name = str(info.get('id'))
-        
-        out_filename = f"{safe_name}.jpg"
+        # Output filename: <lang>_<tmdb_id>.jpg
+        tmdb_id = info.get('id')
+        out_filename = f"{language}_{tmdb_id}.jpg"
         out_path = os.path.join(type_output_dir, out_filename)
 
         print(f"Generating {out_filename} from {filename}...")

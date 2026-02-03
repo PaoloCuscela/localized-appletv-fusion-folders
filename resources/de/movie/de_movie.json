@@ -1,10 +1,10 @@
 [
   {
-    "id": "DA956C56-C6FB-4110-872F-A7292686AD69",
+    "id": "070019D8-AD13-4DEA-9AEE-5DD1F6698904",
     "name": "Abenteuer",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Abenteuer.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_12.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -18,11 +18,11 @@
     }
   },
   {
-    "id": "5A04CC0D-C585-40FA-97A4-F9E8FC6FA8A0",
+    "id": "81A98BCF-731B-438F-92A7-3FA9D34CFA6B",
     "name": "Action",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Action.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_28.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -36,11 +36,11 @@
     }
   },
   {
-    "id": "3D1FD63E-44F4-43C3-B95C-BAF0CCC9FD77",
+    "id": "ABC0EB98-EB05-41CC-8FA5-046C4AEA1FE6",
     "name": "Animation",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Animation.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_16.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -54,11 +54,11 @@
     }
   },
   {
-    "id": "903AF4B2-CD28-4294-BDBA-7DCE0381865F",
+    "id": "4765254C-2E15-47D3-8822-8B7DE927E88F",
     "name": "Dokumentarfilm",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Dokumentarfilm.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_99.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -72,11 +72,11 @@
     }
   },
   {
-    "id": "D9CB388F-1D05-4585-BFBA-2DBCD6D49F17",
+    "id": "DE6DF597-368E-42F1-96FC-A0CA7339371F",
     "name": "Drama",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Drama.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_18.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -90,11 +90,11 @@
     }
   },
   {
-    "id": "0BD173C7-12AD-4F6F-9782-7F811A89D470",
+    "id": "D181879F-39C6-41BD-86F7-CDEFE7B4129A",
     "name": "Familie",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Familie.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_10751.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -108,11 +108,11 @@
     }
   },
   {
-    "id": "30F47D76-378C-4F1F-9803-FDBC70A400CA",
+    "id": "61F9080F-5BA4-4265-BC22-97AA43C4FDB2",
     "name": "Fantasy",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Fantasy.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_14.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -126,11 +126,11 @@
     }
   },
   {
-    "id": "A7C8E302-4AD0-45E2-AD16-D8A385EAE8DD",
+    "id": "6A7EC819-AF6A-46BF-BEEB-9AEFDFB1480D",
     "name": "Historie",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Historie.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_36.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -144,11 +144,11 @@
     }
   },
   {
-    "id": "D52A0E6D-F4C8-4109-A4AD-6EF0B8561051",
+    "id": "0A876AD0-4DAB-48DA-819B-331A38B6B3BF",
     "name": "Horror",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Horror.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_27.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -162,11 +162,11 @@
     }
   },
   {
-    "id": "EE5F9074-C5E5-4D9D-AA91-2EA579995017",
+    "id": "5A32F988-495F-4F22-A842-A9B1510EA835",
     "name": "Komödie",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Komodie.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_35.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -180,11 +180,11 @@
     }
   },
   {
-    "id": "DA98FFE7-0C5B-491D-A249-061B1DADF77E",
+    "id": "A2C24FAD-972D-43CE-80FF-49A74DFBF7CA",
     "name": "Kriegsfilm",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Kriegsfilm.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_10752.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -198,11 +198,11 @@
     }
   },
   {
-    "id": "A4CE3092-FE1C-487F-8982-28434C51987F",
+    "id": "9AA1CCDC-2658-4BC1-8591-D8C958480FD5",
     "name": "Krimi",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Krimi.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_80.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -216,11 +216,11 @@
     }
   },
   {
-    "id": "C00BBA3B-6480-4D94-A913-7D2B716BDCEC",
+    "id": "83248436-4FBD-4999-9C17-DAED8EC9D7FB",
     "name": "Liebesfilm",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Liebesfilm.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_10749.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -234,11 +234,11 @@
     }
   },
   {
-    "id": "AB5C7A95-7E71-4BED-A146-734BBD568075",
+    "id": "8EFF3670-4D25-43A7-94C2-5AC644657381",
     "name": "Musik",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Musik.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_10402.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -252,11 +252,11 @@
     }
   },
   {
-    "id": "7D41DF04-9040-4A5D-A123-7257719535C2",
+    "id": "745E9A0B-DA95-4F65-A0EC-4D60DE73A3A6",
     "name": "Mystery",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Mystery.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_9648.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -270,11 +270,11 @@
     }
   },
   {
-    "id": "0A368540-B37B-48DE-B8F0-B3265A928EF1",
+    "id": "82011D5D-555E-46A0-B51E-E9556AB9E9A1",
     "name": "Science Fiction",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Science_Fiction.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_878.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -288,11 +288,11 @@
     }
   },
   {
-    "id": "DF12DF43-CF55-4102-9483-953317DD668F",
+    "id": "645F965D-81BE-497D-A1ED-EA2C318506AA",
     "name": "Thriller",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Thriller.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_53.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -306,11 +306,11 @@
     }
   },
   {
-    "id": "7040BE2F-AED4-4DD9-9AF2-A5C230E32600",
+    "id": "E622A459-CD04-4D86-AF80-76C0E3558E92",
     "name": "Tv-Film",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Tv-Film.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_10770.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -324,11 +324,11 @@
     }
   },
   {
-    "id": "AD9E1C20-A8CC-4B36-8F2B-BED78C4FFEDF",
+    "id": "39C1D6FF-C179-4D3C-89C0-6B328C49A85B",
     "name": "Western",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Western.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/de_37.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {

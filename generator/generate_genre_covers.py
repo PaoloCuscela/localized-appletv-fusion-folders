@@ -106,8 +106,12 @@ def main():
 
         json_output = []
 
+        # Sort genres alphabetically by name to ensure consistent order
+        genres.sort(key=lambda x: x['name'])
+
         for i, genre in enumerate(genres):
-            genre_name = genre['name']
+            # Ensure Title Case for genre names
+            genre_name = genre['name'].title()
             genre_id = genre['id']
             
             # Round-robin selection of image
@@ -116,23 +120,24 @@ def main():
             
             print(f"Processing genre: {genre_name} (ID: {genre_id}) using base image: {os.path.basename(base_image_path)}")
             
+            # Use specific output path to enforce naming convention <lang>_<id>.png
+            image_filename = f"{args.language}_{genre_id}.png"
+            image_output_path = os.path.join(current_output_dir, image_filename)
+
             # Call the function from add_text.py
             # We assume add_text_to_image handles the saving logic using the text as filename
             # passed via 'text' param.
             add_text_to_image(
                 input_path=base_image_path,
                 text=genre_name,
-                output_dir=current_output_dir,
+                output_dir=None, # Not used when specific_output_path is set
+                specific_output_path=image_output_path,
                 font_size=args.fontsize,
                 font_path=args.font,
                 target_width=args.width,
                 target_height=args.height
             )
 
-            # Create safe filename from text (logic duplicated from add_text.py to predict filename)
-            safe_text = "".join([c for c in genre_name if c.isalnum() or c in (' ', '-', '_')]).strip().replace(" ", "_")
-            image_filename = f"{safe_text}.png"
-            
             # Construct relative path from output directory
             # Structure is: language/media_type/filename
             relative_path = f"{args.language}/{media_type}/{image_filename}"

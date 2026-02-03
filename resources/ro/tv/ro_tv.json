@@ -1,10 +1,10 @@
 [
   {
-    "id": "A26BFFDA-4CC7-4A49-B805-AEAAE3C3B4EB",
+    "id": "14C864F0-4CE9-4CCA-A411-16DBEF0B6035",
     "name": "Acţiune & Aventuri",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Actiune__Aventuri.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10759.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -18,11 +18,11 @@
     }
   },
   {
-    "id": "474985E9-B641-43A4-9349-ADECCFCBB141",
+    "id": "B16F67A4-6BDF-48B2-AB2F-BF13031C6A7D",
     "name": "Animaţie",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Animatie.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_16.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -36,11 +36,11 @@
     }
   },
   {
-    "id": "D3EE5507-422A-43E8-B672-AFB0851A5EBB",
+    "id": "37933F45-7C32-4D99-BB87-3AB89F865AAE",
     "name": "Comedie",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Comedie.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_35.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -54,11 +54,11 @@
     }
   },
   {
-    "id": "B9BE404C-992A-4F2B-B48C-844874E7CAB8",
+    "id": "94B2C57C-A6FF-4787-B0F5-E04597E735DA",
     "name": "Copii",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Copii.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10762.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -72,11 +72,11 @@
     }
   },
   {
-    "id": "64293591-2F8D-4238-ABDC-39C86572D197",
+    "id": "609C259A-997D-4AFA-BC03-548577C430AD",
     "name": "Crimă",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Crima.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_80.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -90,11 +90,11 @@
     }
   },
   {
-    "id": "DF74DFBA-8DFC-4B85-BF6E-DFE3A9EFC407",
+    "id": "E5BB0004-052E-4C8D-93AC-B3DBF6F120CF",
     "name": "Documentar",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Documentar.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_99.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -108,11 +108,11 @@
     }
   },
   {
-    "id": "275B2577-1C74-4451-9EA0-B78FFE9FAC29",
+    "id": "DA38DC38-CF01-4F6D-BE94-4634E949C4AB",
     "name": "Dramă",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Drama.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_18.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -126,11 +126,11 @@
     }
   },
   {
-    "id": "CC972FC5-BF8A-4DFB-8943-CCC18867358F",
+    "id": "DA24DCB9-40C0-418E-B3F1-5C558DDFE3DB",
     "name": "Familie",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Familie.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10751.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -144,11 +144,11 @@
     }
   },
   {
-    "id": "D14DD48B-27C0-415F-B7F9-BDF363A4C66B",
+    "id": "203127AF-C788-483C-9BB7-B78A9D22F33F",
     "name": "Mister",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Mister.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_9648.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -162,11 +162,11 @@
     }
   },
   {
-    "id": "D1F983E1-B714-424B-A16A-C902F357FFCC",
+    "id": "871CB1D7-AA7C-41C3-9015-BA67E6463FF7",
     "name": "Reality",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Reality.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10764.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -180,11 +180,11 @@
     }
   },
   {
-    "id": "4D853916-0C84-45E4-9364-A93526E32ED4",
+    "id": "C3FB3347-167C-47C9-AC06-EA41AB60CD3C",
     "name": "Război & Politică",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Razboi__Politica.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10768.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -198,11 +198,11 @@
     }
   },
   {
-    "id": "20B9FB51-8D8F-48AC-9B86-30D9DD874305",
+    "id": "F06CC19A-ADE7-4462-ADF1-D6765D1D19D7",
     "name": "Sf & Fantasy",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Sf__Fantasy.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10765.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -216,11 +216,11 @@
     }
   },
   {
-    "id": "60305715-697B-48DA-A55D-097ABAF9C732",
+    "id": "9E202337-A0CB-407B-BBEE-BB1F10970D05",
     "name": "Soap",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Soap.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10766.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -234,11 +234,11 @@
     }
   },
   {
-    "id": "D73313D4-2900-4EAF-BBE3-9A2088F90554",
+    "id": "8B92C696-8341-43EE-8D05-D148F787E715",
     "name": "Talk",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Talk.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10767.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -252,11 +252,11 @@
     }
   },
   {
-    "id": "665A2E9B-FAA2-4A2D-B474-B38CA7693757",
+    "id": "0D555F99-6345-41CE-952D-74EF66A5F393",
     "name": "Western",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Western.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_37.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -270,11 +270,11 @@
     }
   },
   {
-    "id": "87B2ABA2-E16B-4A6F-8002-693E6522EFC4",
+    "id": "EE29E6CD-938C-4ABE-B3F1-3100DAADE309",
     "name": "Ştiri",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/Stiri.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ro/tv/ro_10763.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {

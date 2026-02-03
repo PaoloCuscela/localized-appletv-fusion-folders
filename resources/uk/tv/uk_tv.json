@@ -1,10 +1,10 @@
 [
   {
-    "id": "047B2634-A865-4599-B99A-193F2619D7C7",
+    "id": "3533E65A-3A4A-4A85-AF3A-2C3E99D023AB",
     "name": "Вестерн",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/37.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_37.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -18,11 +18,11 @@
     }
   },
   {
-    "id": "8D086330-1AAA-4918-886E-BAEA94AC8C1D",
+    "id": "5D3931B1-17D4-4156-BD44-8E15E75E5505",
     "name": "Детектив",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/9648.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_9648.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -36,11 +36,11 @@
     }
   },
   {
-    "id": "7738F3EB-D9AA-4D89-8839-4FE5B2C59D75",
+    "id": "6A3D27A5-92A0-4904-8B49-AAF1A6E015BC",
     "name": "Дитячий",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10762.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10762.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -54,11 +54,11 @@
     }
   },
   {
-    "id": "3BEF3B84-B490-4E30-9181-BF8518821747",
+    "id": "77F166E3-4E72-4867-88B4-B60D937EC340",
     "name": "Документальний",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/99.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_99.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -72,11 +72,11 @@
     }
   },
   {
-    "id": "B5F16FA4-AC60-45A3-B5D2-411F28E66AEF",
+    "id": "6347B406-E8AD-4447-B94D-96A16A9DAA86",
     "name": "Драма",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/18.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_18.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -90,11 +90,11 @@
     }
   },
   {
-    "id": "56F01C72-0E6B-42F5-8DF1-A362AA0399D7",
+    "id": "735DADED-886A-42E3-B9AB-B2CC23DDDDD9",
     "name": "Екшн І Пригоди",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10759.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10759.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -108,11 +108,11 @@
     }
   },
   {
-    "id": "1B26F05F-A4F4-44C0-BEE0-13A162782A8B",
+    "id": "63C74CC4-191F-4717-A64B-E49407A318A3",
     "name": "Комедія",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/35.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_35.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -126,11 +126,11 @@
     }
   },
   {
-    "id": "FDF18100-25A6-42C9-A7BE-1F8CFD31C1B1",
+    "id": "5C070499-3872-430B-A72E-A6B20220598C",
     "name": "Кримінал",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/80.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_80.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -144,11 +144,11 @@
     }
   },
   {
-    "id": "25B3322F-5653-4270-BC3F-3864BE452BDA",
+    "id": "BFC09F05-48DC-4A87-9B39-1B8396AE9DB6",
     "name": "Мильна Опера",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10766.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10766.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -162,11 +162,11 @@
     }
   },
   {
-    "id": "0FBA532A-EE7C-4FE4-A47E-C5F769589A6F",
+    "id": "D7A9977B-5512-4AD3-9AAE-521CA3457C8D",
     "name": "Мультфільм",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/16.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_16.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -180,11 +180,11 @@
     }
   },
   {
-    "id": "F5FED07C-B1B9-4771-A66E-46FCEC2D15ED",
+    "id": "274E2812-01C4-4A84-ABC8-B8ED50F9432B",
     "name": "Науково Фантастичний",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10765.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10765.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -198,11 +198,11 @@
     }
   },
   {
-    "id": "A16B4605-5ACE-4998-A845-2E1B6463E445",
+    "id": "B6D1B86B-D506-41A7-B8C2-130DFDDE358C",
     "name": "Новини",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10763.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10763.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -216,11 +216,11 @@
     }
   },
   {
-    "id": "D8A068AE-8015-49EC-9F76-0F9395B35966",
+    "id": "F2E35F09-336B-448B-A209-4AF7678D94A5",
     "name": "Політика Та Війна",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10768.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10768.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -234,11 +234,11 @@
     }
   },
   {
-    "id": "12692186-9076-47E1-A21B-2E05B74D69D0",
+    "id": "152667B6-186E-40CA-9A1C-F322A9C31FEF",
     "name": "Реаліті-Шоу",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/-.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10764.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -252,11 +252,11 @@
     }
   },
   {
-    "id": "E6F634FD-0C6E-478A-8E99-D0DDC825D985",
+    "id": "BDFED0DD-C4B2-46AD-A712-680E2B440C60",
     "name": "Сімейний",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/10751.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10751.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -270,11 +270,11 @@
     }
   },
   {
-    "id": "72CED7CD-C9F9-438F-B4B4-FD6646455AA1",
+    "id": "38A87D72-A59F-44E2-8556-CB60FFCB5454",
     "name": "Ток-Шоу",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/-.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10767.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {

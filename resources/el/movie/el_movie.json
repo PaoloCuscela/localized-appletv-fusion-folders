@@ -1,10 +1,10 @@
 [
   {
-    "id": "325432FD-3FBC-411B-9CD0-8BB42B74750D",
+    "id": "E46E08F1-B0F3-442C-9D3E-CAC13CE06E1F",
     "name": "Αστυνομική",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/80.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_80.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -18,11 +18,11 @@
     }
   },
   {
-    "id": "37EA8120-817D-43C7-AE8B-FB003691ECDC",
+    "id": "0E7BE8BC-B4F1-4045-A8AE-88ED72D4E12A",
     "name": "Γουέστερν",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/37.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_37.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -36,11 +36,11 @@
     }
   },
   {
-    "id": "9FB2E995-C807-4F79-B804-FF8AD852D0BF",
+    "id": "8782C14D-06ED-4817-833C-A29D9C56CB1A",
     "name": "Δράμα",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/18.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_18.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -54,11 +54,11 @@
     }
   },
   {
-    "id": "6C9FA0AD-9E99-4A3D-8398-AE20CED339D4",
+    "id": "E0A5D951-6B50-438F-9E1F-23E1ABE484E9",
     "name": "Δράση",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/28.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_28.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -72,11 +72,11 @@
     }
   },
   {
-    "id": "69B869CD-C603-48EC-801E-21BBD2D8EAEB",
+    "id": "144646C6-6825-4245-AB6C-D4C2E4ECD1C3",
     "name": "Επ. Φαντασίας",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/878.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_878.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -90,11 +90,11 @@
     }
   },
   {
-    "id": "0C387372-0C9C-41DD-9E04-5B633C84AF9A",
+    "id": "9CC2ABDC-DC0B-4D81-838E-6B5D894B4350",
     "name": "Θρίλερ",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/53.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_53.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -108,11 +108,11 @@
     }
   },
   {
-    "id": "09290A6C-D3E6-4B85-8D69-5C20138D7236",
+    "id": "7C50D37F-40A1-45E1-87BA-882D8E02B387",
     "name": "Ιστορική",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/36.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_36.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -126,11 +126,11 @@
     }
   },
   {
-    "id": "31ABF6CC-EC3D-4139-8D08-880900C8AA2E",
+    "id": "7845BCA4-7F50-4F9B-819A-5D1AB0885401",
     "name": "Κινούμενα Σχέδια",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/16.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_16.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -144,11 +144,11 @@
     }
   },
   {
-    "id": "0EA47FE3-0EEA-4FA2-A8D1-E1AFAAE525F9",
+    "id": "1F303BDB-AA60-4E06-8923-82FDE7934315",
     "name": "Κωμωδία",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/35.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_35.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -162,11 +162,11 @@
     }
   },
   {
-    "id": "B0838031-C51D-4F9E-B0B2-C7751ED64E46",
+    "id": "AD9C775E-33E7-4D96-815C-C6C8EBC331C9",
     "name": "Μουσική",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/10402.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_10402.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -180,11 +180,11 @@
     }
   },
   {
-    "id": "2A204D6C-CC33-4289-A304-F18DB3324E4A",
+    "id": "A257B425-7A63-4B8E-9E21-81877DF7B3CA",
     "name": "Μυστηρίου",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/9648.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_9648.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -198,11 +198,11 @@
     }
   },
   {
-    "id": "916C5C33-F132-415F-B6F4-1EABDB52AC02",
+    "id": "E680475E-2092-4526-8C31-F0C06CF240C0",
     "name": "Ντοκυμαντέρ",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/99.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_99.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -216,11 +216,11 @@
     }
   },
   {
-    "id": "88BB564D-1310-4AAE-8410-9CE0A20F250B",
+    "id": "3C8DD9D8-9129-4D31-9D8F-1904263BE9B1",
     "name": "Οικογενειακή",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/10751.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_10751.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -234,11 +234,11 @@
     }
   },
   {
-    "id": "8C7EFB40-4374-4425-AB5A-83653751B504",
+    "id": "DA9FD307-E8B9-4BC9-8B36-D65C126752B3",
     "name": "Περιπέτεια",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/12.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_12.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -252,11 +252,11 @@
     }
   },
   {
-    "id": "9EF74678-47F6-423B-99E7-A2CA7A813429",
+    "id": "05691ECB-FACF-4A74-B347-0278B5B31E69",
     "name": "Πολεμική",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/10752.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_10752.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -270,11 +270,11 @@
     }
   },
   {
-    "id": "B5A6F70A-B209-47BD-BBAC-41DA0535CFCD",
+    "id": "7B456074-DD20-4B7E-88D8-F3405FA0B471",
     "name": "Ρομαντική",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/10749.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_10749.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -288,11 +288,11 @@
     }
   },
   {
-    "id": "71F25444-2633-42BD-ACD6-B36268181DDE",
+    "id": "560AA254-8234-40B9-8966-98C77CC91BBD",
     "name": "Τηλεοπτική Ταινία",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/10770.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_10770.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -306,11 +306,11 @@
     }
   },
   {
-    "id": "A7A7E97F-94D8-4772-A079-F2B8F9A2DBE2",
+    "id": "6436B815-D9E5-4B10-AA52-17CA569CD039",
     "name": "Τρόμου",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/27.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_27.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
@@ -324,11 +324,11 @@
     }
   },
   {
-    "id": "0F579C4E-DB42-4CD4-AC12-5C9D50A936AF",
+    "id": "E9723A3D-7496-4869-A82B-F3DD7BFB7101",
     "name": "Φαντασίας",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/14.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/movie/el_14.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {

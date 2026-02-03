@@ -2,6 +2,8 @@
 
 A collection of localized Fusion genre folders inspired by AppleTV design.
 
+**[View the Gallery](https://paolocuscela.github.io/localized-appletv-fusion-folders/)**
+
 The folders are configured to filter movies and tv shows on genre, the're sorted by popularity and localized.
 
 
