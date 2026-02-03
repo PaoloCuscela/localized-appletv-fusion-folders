@@ -1,0 +1,290 @@
+[
+  {
+    "id": "EE2F522B-C17C-4EE3-83B8-A426B2C43CE1",
+    "name": "семейный",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10751.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10751
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "AE0EF211-5CBB-4C4A-8A31-2F2B67345C76",
+    "name": "Боевик и Приключения",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10759.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10759
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "488FB2A8-C9E5-4A45-87CC-C4453FC9907B",
+    "name": "Детский",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10762.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10762
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "30DBC528-15FA-4B31-A0AC-9C9A916E70FB",
+    "name": "Новости",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10763.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10763
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "CFDD7540-31C4-4E36-B997-4975F5F5E375",
+    "name": "Реалити-шоу",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/-.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10764
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "0CB2C408-F18F-4556-BE4A-218D9F62BF33",
+    "name": "НФ и Фэнтези",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10765.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10765
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "EE92813F-4430-4BEB-A0B4-30711AAD3C26",
+    "name": "Мыльная опера",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10766.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10766
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "F377B0B7-A1C8-4BA9-BB99-209B389A5335",
+    "name": "Ток-шоу",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/-.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10767
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "06355B35-460A-433D-A949-1CC229EB5C2D",
+    "name": "Война и Политика",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10768.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10768
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "A85B1B5F-0B2F-4BB4-8FB7-9F3FCD7934F0",
+    "name": "мультфильм",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/16.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          16
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "0E1D4106-87E0-4D25-BCB8-ACEE239ED930",
+    "name": "драма",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/18.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          18
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "FB8B058D-564B-4A9D-915F-229F0B140E10",
+    "name": "комедия",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/35.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          35
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "8C6A6293-8574-4790-B5A7-E9598F90F4C6",
+    "name": "вестерн",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/37.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          37
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "2EE30A08-26E0-4F55-9655-1BB0BB0C6F18",
+    "name": "криминал",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/80.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          80
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "B366286E-A9DA-4A30-B1AF-6532AE5EE8CF",
+    "name": "детектив",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/9648.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          9648
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "81CC402B-7723-4363-8318-629CB5B2127B",
+    "name": "документальный",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/99.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          99
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  }
+]

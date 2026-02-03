@@ -1,0 +1,344 @@
+[
+  {
+    "id": "56B32577-394C-4367-A713-2263270DA9FE",
+    "name": "Música",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Musica.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10402
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "ABBBE377-C713-461F-85D0-656A7FE921D7",
+    "name": "Romance",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Romance.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10749
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "AD4E7C05-99D4-4CBE-A2AF-5F379B29B1BF",
+    "name": "Familia",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Familia.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10751
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "5C1700FE-C428-4FB1-B63B-10A1AC5F4AA5",
+    "name": "Bélica",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Belica.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10752
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "B1328BA9-7152-452B-A2F2-6DF49ED793CF",
+    "name": "Película de TV",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Pelicula_de_TV.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10770
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "0AF99E13-4D7C-40E0-9F6E-C8CA04861EC9",
+    "name": "Aventura",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Aventura.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          12
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "5F1D44C0-6C9C-45D9-A4E1-8205301CE4C1",
+    "name": "Fantasía",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Fantasia.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          14
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "84866556-6575-469D-BBCB-C6FDD30E269A",
+    "name": "Animación",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Animacion.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          16
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "D5198BD6-3CFE-4F29-BC7D-FDB464311E9B",
+    "name": "Drama",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Drama.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          18
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "1983F0DB-EE59-464B-A2B9-71281A111499",
+    "name": "Terror",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Terror.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          27
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "6943C50F-F0A9-4786-8987-6A1A1E4887ED",
+    "name": "Acción",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Accion.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          28
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "3A91CD82-FB09-4280-B4BA-5CEDF2A7B277",
+    "name": "Comedia",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Comedia.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          35
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "3E90D800-2B11-42E9-85F8-ACF341C6B156",
+    "name": "Historia",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Historia.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          36
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "7EEB8C71-DC98-4E33-9661-1D51BA2E68D9",
+    "name": "Western",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Western.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          37
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "E367CCD8-678D-46A9-BAB2-389FAD853C67",
+    "name": "Suspense",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Suspense.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          53
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "A77E3A2F-4636-4EBD-88A7-2A766AD62FC3",
+    "name": "Crimen",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Crimen.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          80
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "4170014D-B543-4842-8A48-DDDCBB0950F0",
+    "name": "Ciencia ficción",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Ciencia_ficcion.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          878
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "28543BF3-D144-4501-A0EF-F50B3C2AA891",
+    "name": "Misterio",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Misterio.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          9648
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  },
+  {
+    "id": "EE2B2A6E-D23A-4A88-94E7-6154419015C9",
+    "name": "Documental",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Documental.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          99
+        ],
+        "withOriginalLanguage": "es"
+      }
+    }
+  }
+]

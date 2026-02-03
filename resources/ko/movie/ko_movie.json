@@ -1,0 +1,344 @@
+[
+  {
+    "id": "8240E290-D7F4-498C-950B-9D64EAD823EC",
+    "name": "음악",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10402.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10402
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "0F54D904-DEE9-4034-9E5D-20953FD1BB50",
+    "name": "로맨스",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10749.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10749
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "B85517E1-D9C7-49CF-9A69-BFCD383A5F6A",
+    "name": "가족",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10751.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10751
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "0A388D3A-B934-4304-A2B9-CAF58D45BBFB",
+    "name": "전쟁",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10752.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10752
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "F9B14AE4-3C5B-4AD8-B1DB-4069BD1D17AF",
+    "name": "TV 영화",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/TV.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10770
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "BE05F30C-B98C-4F50-8ECE-7CB0AA419BA7",
+    "name": "모험",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/12.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          12
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "A7EF436D-4E1B-4FB7-95E1-6A8E09BCAB5A",
+    "name": "판타지",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/14.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          14
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "82513E1E-D2C4-425D-8513-6F49D70A0754",
+    "name": "애니메이션",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/16.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          16
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "682F63B7-5BF8-4BD2-BE02-92EC9FF21671",
+    "name": "드라마",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/18.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          18
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "DD207FD1-6F35-4050-9BD4-AA30895D28B1",
+    "name": "공포",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/27.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          27
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "66F5F7AF-324A-4B1D-9149-05E8C37657DA",
+    "name": "액션",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/28.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          28
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "7247F665-8AC5-4B7C-9149-AEE85889EEAC",
+    "name": "코미디",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/35.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          35
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "0A59B6B9-45F3-41D2-B313-D00A7D460850",
+    "name": "역사",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/36.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          36
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "78A0183C-EBB9-4198-97EB-AC0C399B87CC",
+    "name": "서부",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/37.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          37
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "541EC6AB-33DA-48F2-8A96-67DA197CBF9B",
+    "name": "스릴러",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/53.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          53
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "F41C0EC4-FF42-4204-8BA5-8E74D0A4ADB2",
+    "name": "범죄",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/80.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          80
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "A10EBA7C-425D-4478-9F63-4AF3CA72C664",
+    "name": "SF",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/SF.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          878
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "0E61CBD9-6A87-4346-A4A6-87CD00C4ED73",
+    "name": "미스터리",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/9648.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          9648
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  },
+  {
+    "id": "9F0EAECE-910E-4640-99B5-C1A447044BA7",
+    "name": "다큐멘터리",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/99.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          99
+        ],
+        "withOriginalLanguage": "ko"
+      }
+    }
+  }
+]

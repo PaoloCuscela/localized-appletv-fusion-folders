@@ -1,0 +1,290 @@
+[
+  {
+    "id": "5E28C218-AF29-43E9-A971-E283F4BD684C",
+    "name": "家庭",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10751.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10751
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "336B6810-0F95-408A-912F-A77B09C3469B",
+    "name": "动作冒险",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10759.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10759
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "5A4CEFF7-DD11-457F-B078-4C84CCB6D51D",
+    "name": "儿童",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10762.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10762
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "4DF545B7-94C5-40A2-BA90-3C5E57D3E508",
+    "name": "新闻",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10763.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10763
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "7A857AD9-8DF2-4827-9EA0-337FE8BC51A7",
+    "name": "真人秀",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10764.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10764
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "3428FD3E-4D97-4D34-96FF-7AC39F377D02",
+    "name": "Sci-Fi & Fantasy",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/Sci-Fi__Fantasy.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10765
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "0E78C241-5FEF-4BF1-A964-968FDBDE8365",
+    "name": "肥皂剧",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10766.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10766
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "8DBDDC2C-FD4D-4AF6-8004-826CC506BB52",
+    "name": "脱口秀",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10767.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10767
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "6FE1406F-D739-4B1A-A79B-0770A666B3B6",
+    "name": "War & Politics",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/War__Politics.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10768
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "737A7069-A825-465E-A14F-38C3E61DCE59",
+    "name": "动画",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/16.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          16
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "ADCE540F-6152-4BD9-95D3-8D98E64FA91A",
+    "name": "剧情",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/18.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          18
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "14D28EC8-B795-45D8-B49E-7A80A4070702",
+    "name": "喜剧",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/35.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          35
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "630180B5-1A36-4B96-AC3F-CD64CB283A10",
+    "name": "西部",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/37.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          37
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "797C2E55-07C1-4727-A2DD-C1E708CA18DA",
+    "name": "犯罪",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/80.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          80
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "AA010F88-C84D-4027-849E-40E32B360FC1",
+    "name": "悬疑",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/9648.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          9648
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  },
+  {
+    "id": "4349C119-8A7F-454A-87C8-B7E6AE6B22E4",
+    "name": "纪录",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/99.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          99
+        ],
+        "withOriginalLanguage": "zh"
+      }
+    }
+  }
+]
