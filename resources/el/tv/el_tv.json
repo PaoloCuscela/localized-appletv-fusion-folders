@@ -2,7 +2,7 @@
   {
     "id": "3F59D445-EBFD-47B0-A296-9F4DD691F2DA",
     "name": "Soap",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10766.jpg",
     "dataSource": {
@@ -20,7 +20,7 @@
   {
     "id": "B327360C-6A84-44E2-8436-BAFA1E70DE9D",
     "name": "Talk",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10767.jpg",
     "dataSource": {
@@ -38,7 +38,7 @@
   {
     "id": "E091448B-8340-476E-B753-D0D3A46940A9",
     "name": "Αστυνομική",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_80.jpg",
     "dataSource": {
@@ -56,7 +56,7 @@
   {
     "id": "FEF7B8DB-7E8B-4E55-BAE5-94D2169140BF",
     "name": "Γουέστερν",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_37.jpg",
     "dataSource": {
@@ -74,7 +74,7 @@
   {
     "id": "288779B9-ADA9-413E-B861-2DC28E421255",
     "name": "Δράμα",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_18.jpg",
     "dataSource": {
@@ -92,7 +92,7 @@
   {
     "id": "4861ED05-5FDD-4A85-9A2C-65A3C18B2DD4",
     "name": "Επ. Φαντασία - Φαντασίας",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10765.jpg",
     "dataSource": {
@@ -110,7 +110,7 @@
   {
     "id": "440F9740-50B0-44C5-8CD2-4BCFB66FEF23",
     "name": "Κινούμενα Σχέδια",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_16.jpg",
     "dataSource": {
@@ -128,7 +128,7 @@
   {
     "id": "7041480D-C2D5-428E-AD8F-6B55D4C37500",
     "name": "Κωμωδία",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_35.jpg",
     "dataSource": {
@@ -146,7 +146,7 @@
   {
     "id": "28688754-4837-43C0-BA0C-1D67D6344E00",
     "name": "Μυστηρίου",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_9648.jpg",
     "dataSource": {
@@ -164,7 +164,7 @@
   {
     "id": "2B0B508E-FDBC-4B62-8FDA-265E6D8E4F69",
     "name": "Νέα",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10763.jpg",
     "dataSource": {
@@ -182,7 +182,7 @@
   {
     "id": "33DD11FC-3B5F-40BB-B9C5-51A1BEC11E20",
     "name": "Ντοκυμαντέρ",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_99.jpg",
     "dataSource": {
@@ -200,7 +200,7 @@
   {
     "id": "4F1AC0ED-E132-45F7-8ECB-757E36F78EA5",
     "name": "Οικογενειακή",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10751.jpg",
     "dataSource": {
@@ -218,7 +218,7 @@
   {
     "id": "CDE2BAB3-E870-4014-85F1-2156EF52BC2D",
     "name": "Παιδική",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10762.jpg",
     "dataSource": {
@@ -236,7 +236,7 @@
   {
     "id": "58126E74-C750-43EA-913B-7DDDA0237B57",
     "name": "Περιπέτεια - Δράσης",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10759.jpg",
     "dataSource": {
@@ -254,7 +254,7 @@
   {
     "id": "FE5F4B18-468D-44F7-AB65-A1D2AA7BE64F",
     "name": "Πολεμική - Πολιτική",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10768.jpg",
     "dataSource": {
@@ -272,7 +272,7 @@
   {
     "id": "1C74684C-EE6D-4092-BA30-F677F928CC87",
     "name": "Ριάλιτι",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/el/tv/el_10764.jpg",
     "dataSource": {

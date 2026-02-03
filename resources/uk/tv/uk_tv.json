@@ -2,7 +2,7 @@
   {
     "id": "3533E65A-3A4A-4A85-AF3A-2C3E99D023AB",
     "name": "Вестерн",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_37.jpg",
     "dataSource": {
@@ -20,7 +20,7 @@
   {
     "id": "5D3931B1-17D4-4156-BD44-8E15E75E5505",
     "name": "Детектив",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_9648.jpg",
     "dataSource": {
@@ -38,7 +38,7 @@
   {
     "id": "6A3D27A5-92A0-4904-8B49-AAF1A6E015BC",
     "name": "Дитячий",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10762.jpg",
     "dataSource": {
@@ -56,7 +56,7 @@
   {
     "id": "77F166E3-4E72-4867-88B4-B60D937EC340",
     "name": "Документальний",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_99.jpg",
     "dataSource": {
@@ -74,7 +74,7 @@
   {
     "id": "6347B406-E8AD-4447-B94D-96A16A9DAA86",
     "name": "Драма",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_18.jpg",
     "dataSource": {
@@ -92,7 +92,7 @@
   {
     "id": "735DADED-886A-42E3-B9AB-B2CC23DDDDD9",
     "name": "Екшн І Пригоди",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10759.jpg",
     "dataSource": {
@@ -110,7 +110,7 @@
   {
     "id": "63C74CC4-191F-4717-A64B-E49407A318A3",
     "name": "Комедія",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_35.jpg",
     "dataSource": {
@@ -128,7 +128,7 @@
   {
     "id": "5C070499-3872-430B-A72E-A6B20220598C",
     "name": "Кримінал",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_80.jpg",
     "dataSource": {
@@ -146,7 +146,7 @@
   {
     "id": "BFC09F05-48DC-4A87-9B39-1B8396AE9DB6",
     "name": "Мильна Опера",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10766.jpg",
     "dataSource": {
@@ -164,7 +164,7 @@
   {
     "id": "D7A9977B-5512-4AD3-9AAE-521CA3457C8D",
     "name": "Мультфільм",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_16.jpg",
     "dataSource": {
@@ -182,7 +182,7 @@
   {
     "id": "274E2812-01C4-4A84-ABC8-B8ED50F9432B",
     "name": "Науково Фантастичний",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10765.jpg",
     "dataSource": {
@@ -200,7 +200,7 @@
   {
     "id": "B6D1B86B-D506-41A7-B8C2-130DFDDE358C",
     "name": "Новини",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10763.jpg",
     "dataSource": {
@@ -218,7 +218,7 @@
   {
     "id": "F2E35F09-336B-448B-A209-4AF7678D94A5",
     "name": "Політика Та Війна",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10768.jpg",
     "dataSource": {
@@ -236,7 +236,7 @@
   {
     "id": "152667B6-186E-40CA-9A1C-F322A9C31FEF",
     "name": "Реаліті-Шоу",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10764.jpg",
     "dataSource": {
@@ -254,7 +254,7 @@
   {
     "id": "BDFED0DD-C4B2-46AD-A712-680E2B440C60",
     "name": "Сімейний",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10751.jpg",
     "dataSource": {
@@ -272,7 +272,7 @@
   {
     "id": "38A87D72-A59F-44E2-8556-CB60FFCB5454",
     "name": "Ток-Шоу",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/uk/tv/uk_10767.jpg",
     "dataSource": {

@@ -157,7 +157,7 @@ def main():
                     }
                 },
                 "hideTitle": False,
-                "layout": "Wide",
+                "layout": "Poster",
                 "name": genre_name,
                 "backgroundImageURL": background_image_url
             }

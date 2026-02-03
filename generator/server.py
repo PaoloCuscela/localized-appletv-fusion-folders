@@ -171,8 +171,6 @@ def generate_custom():
             
             # Determina layout
             layout = "Poster"
-            if media_type == 'tv':
-                layout = "Wide"
 
             # Costruisci URL immagine
             # Pattern: <base>/<lang>/<movie|tv>/<filename>

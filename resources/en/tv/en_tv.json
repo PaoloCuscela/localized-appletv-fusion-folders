@@ -2,7 +2,7 @@
   {
     "id": "87194A7F-D765-4D69-85BE-D6D90C32C1EE",
     "name": "Action & Adventure",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10759.jpg",
     "dataSource": {
@@ -20,7 +20,7 @@
   {
     "id": "35444A91-459A-4BFC-8D86-B53DDB9FB4CD",
     "name": "Animation",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_16.jpg",
     "dataSource": {
@@ -38,7 +38,7 @@
   {
     "id": "73D586ED-F117-4772-868C-8C15C20AC310",
     "name": "Comedy",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_35.jpg",
     "dataSource": {
@@ -56,7 +56,7 @@
   {
     "id": "A3AC8CEF-2E14-4D7E-900E-C4F0754E1E82",
     "name": "Crime",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_80.jpg",
     "dataSource": {
@@ -74,7 +74,7 @@
   {
     "id": "7082DA55-3156-4A32-A264-5FF86C89B1E9",
     "name": "Documentary",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_99.jpg",
     "dataSource": {
@@ -92,7 +92,7 @@
   {
     "id": "4B31D12F-F416-4F93-99C6-3CEF614DA826",
     "name": "Drama",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_18.jpg",
     "dataSource": {
@@ -110,7 +110,7 @@
   {
     "id": "3106E3BB-7DDC-413C-AD67-341EB5306022",
     "name": "Family",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10751.jpg",
     "dataSource": {
@@ -128,7 +128,7 @@
   {
     "id": "2A5A8B7A-DA51-4190-950B-0C302537160A",
     "name": "Kids",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10762.jpg",
     "dataSource": {
@@ -146,7 +146,7 @@
   {
     "id": "A9A5090C-2394-4576-B768-00EA47E2AC43",
     "name": "Mystery",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_9648.jpg",
     "dataSource": {
@@ -164,7 +164,7 @@
   {
     "id": "DDE7662C-7364-4531-8521-82E68CE0EE66",
     "name": "News",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10763.jpg",
     "dataSource": {
@@ -182,7 +182,7 @@
   {
     "id": "BCB6F8F3-E38E-4CFA-B6BF-C7A1D4101931",
     "name": "Reality",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10764.jpg",
     "dataSource": {
@@ -200,7 +200,7 @@
   {
     "id": "6A10D3CF-748F-49F2-87EC-F26FFFF44B98",
     "name": "Sci-Fi & Fantasy",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10765.jpg",
     "dataSource": {
@@ -218,7 +218,7 @@
   {
     "id": "7A0FB54E-42BA-4F13-A35A-863F283B8B8F",
     "name": "Soap",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10766.jpg",
     "dataSource": {
@@ -236,7 +236,7 @@
   {
     "id": "2B505B67-E9E4-436B-8DF4-33B4686870E2",
     "name": "Talk",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10767.jpg",
     "dataSource": {
@@ -254,7 +254,7 @@
   {
     "id": "D91204F7-E32A-4DE9-B7C3-98FECEC4F20B",
     "name": "War & Politics",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_10768.jpg",
     "dataSource": {
@@ -272,7 +272,7 @@
   {
     "id": "A315B515-9023-480E-8AE1-A53C1CE2862C",
     "name": "Western",
-    "layout": "Wide",
+    "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/en_37.jpg",
     "dataSource": {

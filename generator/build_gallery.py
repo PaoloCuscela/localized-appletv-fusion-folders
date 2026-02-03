@@ -189,7 +189,6 @@ def generate_gallery():
                 
                 # Determine card style based on first item or media_type
                 # Always use vertical poster style as requested (2:3)
-                is_wide = False
                 card_class = "card-poster"
                 type_label = "TV Shows" if media_type == 'tv' else "Movies"
 
