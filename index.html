@@ -1,0 +1,2399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppleTV Localized Fusion Folders</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1c1c1e;
+            --text-color: #f5f5f7;
+            --secondary-text: #86868b;
+            --accent: #2997ff;
+            --border: #333;
+        }
+        body {
+            margin: 0;
+            padding: 40px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        
+        header { margin-bottom: 60px; text-align: center; }
+        h1 { font-size: 3rem; font-weight: 700; background: linear-gradient(135deg, #fff 0%, #888 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0; }
+        .subtitle { color: var(--secondary-text); margin-top: 10px; font-size: 1.2rem; }
+
+        .lang-section { margin-bottom: 80px; }
+        .lang-title { font-size: 2rem; border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 30px; text-transform: capitalize; }
+        
+        .type-section { margin-bottom: 50px; padding-left: 20px; }
+        .type-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+        .type-title { font-size: 1.5rem; font-weight: 600; color: var(--accent); }
+        
+        .actions { display: flex; gap: 10px; }
+        .btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .btn:hover { background: rgba(255,255,255,0.2); transform: translateY(-1px); }
+        .btn:active { transform: translateY(0); }
+        .btn-copy { background: var(--accent); }
+        .btn-copy:hover { background: #0077ed; }
+
+        .carousel-container { position: relative; }
+        .carousel {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 10px 0 30px 0;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        .carousel::-webkit-scrollbar { height: 8px; }
+        .carousel::-webkit-scrollbar-track { background: transparent; }
+        .carousel::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+        
+        .card {
+            flex: 0 0 auto;
+            width: 200px;
+            scroll-snap-align: start;
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            position: relative;
+        }
+        .card:hover { transform: scale(1.05); z-index: 2; box-shadow: 0 10px 20px rgba(0,0,0,0.4); }
+        
+        .card-img-wrapper { width: 100%; overflow: hidden; background: #000; }
+        .card-poster .card-img-wrapper { aspect-ratio: 2/3; }
+        .card-wide .card-img-wrapper { aspect-ratio: 16/9; }
+        .card-wide { width: 300px; }
+
+        .card img { width: 100%; height: 100%; object-fit: cover; transition: opacity 0.3s; }
+        
+        .card-info { padding: 12px; }
+        .card-name { font-weight: 600; font-size: 0.95rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; }
+        .card-meta { font-size: 0.75rem; color: var(--secondary-text); }
+
+        .toast {
+            position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
+            background: rgba(0,0,0,0.8); color: white; padding: 10px 24px; border-radius: 30px;
+            font-size: 0.9rem; pointer-events: none; opacity: 0; transition: opacity 0.3s;
+            backdrop-filter: blur(10px); z-index: 1000;
+        }
+        .toast.show { opacity: 1; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AppleTV Localized Fusion Folders</h1>
+            <div class="subtitle">A list of localized folder to import into Fusion App</div>
+        </header>
+
+        <div class="lang-section"><div class="lang-title">🇩🇪</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/de/movie/de_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/de/movie/de_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="Musik">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Musik.jpg" alt="Musik" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Liebesfilm">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Liebesfilm.jpg" alt="Liebesfilm" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Familie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Familie.jpg" alt="Familie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Kriegsfilm">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Kriegsfilm.jpg" alt="Kriegsfilm" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="TV-Film">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/TV-Film.jpg" alt="TV-Film" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Abenteuer">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Abenteuer.jpg" alt="Abenteuer" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Fantasy.jpg" alt="Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Animation">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Animation.jpg" alt="Animation" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Drama">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Drama.jpg" alt="Drama" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Horror">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Horror.jpg" alt="Horror" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Action">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Action.jpg" alt="Action" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Komödie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Komodie.jpg" alt="Komödie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Historie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Historie.jpg" alt="Historie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Thriller">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Thriller.jpg" alt="Thriller" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Krimi">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Krimi.jpg" alt="Krimi" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Science Fiction">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Science_Fiction.jpg" alt="Science Fiction" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Mystery">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Mystery.jpg" alt="Mystery" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Dokumentarfilm">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/movie/Dokumentarfilm.jpg" alt="Dokumentarfilm" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/de/tv/de_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/de/tv/de_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="Familie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Familie.jpg" alt="Familie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Animation">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Animation.jpg" alt="Animation" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Drama">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Drama.jpg" alt="Drama" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Komödie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Komodie.jpg" alt="Komödie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Krimi">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Krimi.jpg" alt="Krimi" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Mystery">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Mystery.jpg" alt="Mystery" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Dokumentarfilm">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Dokumentarfilm.jpg" alt="Dokumentarfilm" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇺🇸</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/en/movie/en_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/en/movie/en_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="Music">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Music.jpg" alt="Music" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Romance">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Romance.jpg" alt="Romance" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Family">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Family.jpg" alt="Family" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="War">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/War.jpg" alt="War" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="TV Movie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/TV_Movie.jpg" alt="TV Movie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Adventure.jpg" alt="Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Fantasy.jpg" alt="Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Animation">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Animation.jpg" alt="Animation" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Drama">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Drama.jpg" alt="Drama" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Horror">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Horror.jpg" alt="Horror" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Action">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Action.jpg" alt="Action" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Comedy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Comedy.jpg" alt="Comedy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="History">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/History.jpg" alt="History" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Thriller">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Thriller.jpg" alt="Thriller" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Crime">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Crime.jpg" alt="Crime" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Science Fiction">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Science_Fiction.jpg" alt="Science Fiction" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Mystery">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Mystery.jpg" alt="Mystery" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Documentary">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/movie/Documentary.jpg" alt="Documentary" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/en/tv/en_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/en/tv/en_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="Family">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Family.jpg" alt="Family" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Animation">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Animation.jpg" alt="Animation" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Drama">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Drama.jpg" alt="Drama" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Comedy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Comedy.jpg" alt="Comedy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Crime">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Crime.jpg" alt="Crime" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Mystery">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Mystery.jpg" alt="Mystery" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Documentary">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/en/tv/Documentary.jpg" alt="Documentary" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇪🇸</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/es/movie/es_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/es/movie/es_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="Música">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Musica.jpg" alt="Música" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Romance">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Romance.jpg" alt="Romance" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Familia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Familia.jpg" alt="Familia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Bélica">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Belica.jpg" alt="Bélica" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Película de TV">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Pelicula_de_TV.jpg" alt="Película de TV" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Aventura">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Aventura.jpg" alt="Aventura" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Fantasía">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Fantasia.jpg" alt="Fantasía" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Animación">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Animacion.jpg" alt="Animación" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Drama">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Drama.jpg" alt="Drama" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Terror">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Terror.jpg" alt="Terror" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Acción">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Accion.jpg" alt="Acción" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Comedia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Comedia.jpg" alt="Comedia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Historia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Historia.jpg" alt="Historia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Suspense">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Suspense.jpg" alt="Suspense" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Crimen">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Crimen.jpg" alt="Crimen" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Ciencia ficción">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Ciencia_ficcion.jpg" alt="Ciencia ficción" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Misterio">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Misterio.jpg" alt="Misterio" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Documental">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/movie/Documental.jpg" alt="Documental" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/es/tv/es_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/es/tv/es_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="Familia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Familia.jpg" alt="Familia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Animación">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Animacion.jpg" alt="Animación" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Drama">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Drama.jpg" alt="Drama" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Comedia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Comedia.jpg" alt="Comedia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Crimen">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Crimen.jpg" alt="Crimen" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Misterio">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Misterio.jpg" alt="Misterio" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Documental">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/es/tv/Documental.jpg" alt="Documental" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇫🇷</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/fr/movie/fr_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/fr/movie/fr_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="Musique">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Musique.jpg" alt="Musique" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Romance">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Romance.jpg" alt="Romance" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Familial">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Familial.jpg" alt="Familial" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Guerre">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Guerre.jpg" alt="Guerre" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Téléfilm">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Telefilm.jpg" alt="Téléfilm" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Aventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Aventure.jpg" alt="Aventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Fantastique">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Fantastique.jpg" alt="Fantastique" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Animation">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Animation.jpg" alt="Animation" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Drame">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Drame.jpg" alt="Drame" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Horreur">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Horreur.jpg" alt="Horreur" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Action">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Action.jpg" alt="Action" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Comédie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Comedie.jpg" alt="Comédie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Histoire">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Histoire.jpg" alt="Histoire" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Thriller">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Thriller.jpg" alt="Thriller" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Crime">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Crime.jpg" alt="Crime" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Science-Fiction">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Science-Fiction.jpg" alt="Science-Fiction" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Mystère">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Mystere.jpg" alt="Mystère" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Documentaire">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/movie/Documentaire.jpg" alt="Documentaire" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/fr/tv/fr_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/fr/tv/fr_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="Familial">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Familial.jpg" alt="Familial" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Science-Fiction & Fantastique">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Science-Fiction__Fantastique.jpg" alt="Science-Fiction & Fantastique" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Animation">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Animation.jpg" alt="Animation" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Drame">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Drame.jpg" alt="Drame" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Comédie">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Comedie.jpg" alt="Comédie" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Crime">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Crime.jpg" alt="Crime" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Mystère">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Mystere.jpg" alt="Mystère" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Documentaire">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/fr/tv/Documentaire.jpg" alt="Documentaire" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇮🇹</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/it/movie/it_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/it/movie/it_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="Musica">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Musica.jpg" alt="Musica" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Romance">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Romance.jpg" alt="Romance" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Famiglia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Famiglia.jpg" alt="Famiglia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Guerra">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Guerra.jpg" alt="Guerra" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="televisione film">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/televisione_film.jpg" alt="televisione film" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Avventura">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Avventura.jpg" alt="Avventura" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Fantasy.jpg" alt="Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Animazione">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Animazione.jpg" alt="Animazione" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Dramma">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Dramma.jpg" alt="Dramma" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Horror">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Horror.jpg" alt="Horror" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Azione">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Azione.jpg" alt="Azione" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Commedia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Commedia.jpg" alt="Commedia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Storia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Storia.jpg" alt="Storia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Thriller">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Thriller.jpg" alt="Thriller" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Crime">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Crime.jpg" alt="Crime" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Fantascienza">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Fantascienza.jpg" alt="Fantascienza" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Mistero">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Mistero.jpg" alt="Mistero" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="Documentario">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/movie/Documentario.jpg" alt="Documentario" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/it/tv/it_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/it/tv/it_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="Famiglia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Famiglia.jpg" alt="Famiglia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Animazione">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Animazione.jpg" alt="Animazione" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Dramma">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Dramma.jpg" alt="Dramma" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Commedia">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Commedia.jpg" alt="Commedia" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Western">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Western.jpg" alt="Western" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Crime">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Crime.jpg" alt="Crime" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Mistero">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Mistero.jpg" alt="Mistero" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Documentario">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/it/tv/Documentario.jpg" alt="Documentario" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇯🇵</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/ja/movie/ja_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/ja/movie/ja_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="音楽">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/10402.jpg" alt="音楽" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ロマンス">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/10749.jpg" alt="ロマンス" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ファミリー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/10751.jpg" alt="ファミリー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="戦争">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/10752.jpg" alt="戦争" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="テレビ映画">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/10770.jpg" alt="テレビ映画" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="アドベンチャー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/12.jpg" alt="アドベンチャー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ファンタジー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/14.jpg" alt="ファンタジー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="アニメーション">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/16.jpg" alt="アニメーション" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ドラマ">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/18.jpg" alt="ドラマ" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ホラー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/27.jpg" alt="ホラー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="アクション">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/28.jpg" alt="アクション" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="コメディ">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/35.jpg" alt="コメディ" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="履歴">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/36.jpg" alt="履歴" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="西洋">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/37.jpg" alt="西洋" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="スリラー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/53.jpg" alt="スリラー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="犯罪">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/80.jpg" alt="犯罪" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="サイエンスフィクション">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/878.jpg" alt="サイエンスフィクション" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="謎">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/9648.jpg" alt="謎" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ドキュメンタリー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/movie/99.jpg" alt="ドキュメンタリー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/ja/tv/ja_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/ja/tv/ja_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="ファミリー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/10751.jpg" alt="ファミリー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="アニメーション">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/16.jpg" alt="アニメーション" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="ドラマ">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/18.jpg" alt="ドラマ" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="コメディ">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/35.jpg" alt="コメディ" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="西洋">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/37.jpg" alt="西洋" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="犯罪">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/80.jpg" alt="犯罪" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="謎">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/9648.jpg" alt="謎" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="ドキュメンタリー">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ja/tv/99.jpg" alt="ドキュメンタリー" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇰🇷</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/ko/movie/ko_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/ko/movie/ko_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="음악">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10402.jpg" alt="음악" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="로맨스">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10749.jpg" alt="로맨스" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="가족">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10751.jpg" alt="가족" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="전쟁">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/10752.jpg" alt="전쟁" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="TV 영화">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/TV.jpg" alt="TV 영화" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="모험">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/12.jpg" alt="모험" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="판타지">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/14.jpg" alt="판타지" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="애니메이션">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/16.jpg" alt="애니메이션" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="드라마">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/18.jpg" alt="드라마" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="공포">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/27.jpg" alt="공포" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="액션">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/28.jpg" alt="액션" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="코미디">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/35.jpg" alt="코미디" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="역사">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/36.jpg" alt="역사" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="서부">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/37.jpg" alt="서부" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="스릴러">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/53.jpg" alt="스릴러" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="범죄">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/80.jpg" alt="범죄" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="SF">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/SF.jpg" alt="SF" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="미스터리">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/9648.jpg" alt="미스터리" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="다큐멘터리">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/movie/99.jpg" alt="다큐멘터리" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/ko/tv/ko_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/ko/tv/ko_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="가족">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/10751.jpg" alt="가족" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Action & Adventure">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/Action__Adventure.jpg" alt="Action & Adventure" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Kids">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/Kids.jpg" alt="Kids" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="News">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/News.jpg" alt="News" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Reality">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/Reality.jpg" alt="Reality" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Soap">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/Soap.jpg" alt="Soap" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Talk">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/Talk.jpg" alt="Talk" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="애니메이션">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/16.jpg" alt="애니메이션" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="드라마">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/18.jpg" alt="드라마" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="코미디">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/35.jpg" alt="코미디" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="서부">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/37.jpg" alt="서부" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="범죄">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/80.jpg" alt="범죄" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="미스터리">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/9648.jpg" alt="미스터리" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="다큐멘터리">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ko/tv/99.jpg" alt="다큐멘터리" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇷🇺</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/ru/movie/ru_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/ru/movie/ru_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="музыка">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10402.jpg" alt="музыка" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="мелодрама">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10749.jpg" alt="мелодрама" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="семейный">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10751.jpg" alt="семейный" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="военный">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10752.jpg" alt="военный" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="телевизионный фильм">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10770.jpg" alt="телевизионный фильм" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="приключения">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/12.jpg" alt="приключения" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="фэнтези">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/14.jpg" alt="фэнтези" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="мультфильм">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/16.jpg" alt="мультфильм" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="драма">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/18.jpg" alt="драма" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="ужасы">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/27.jpg" alt="ужасы" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="боевик">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/28.jpg" alt="боевик" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="комедия">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/35.jpg" alt="комедия" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="история">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/36.jpg" alt="история" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="вестерн">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/37.jpg" alt="вестерн" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="триллер">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/53.jpg" alt="триллер" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="криминал">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/80.jpg" alt="криминал" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="фантастика">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/878.jpg" alt="фантастика" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="детектив">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/9648.jpg" alt="детектив" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="документальный">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/99.jpg" alt="документальный" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/ru/tv/ru_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/ru/tv/ru_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="семейный">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10751.jpg" alt="семейный" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Боевик и Приключения">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10759.jpg" alt="Боевик и Приключения" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Детский">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10762.jpg" alt="Детский" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Новости">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10763.jpg" alt="Новости" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Реалити-шоу">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/-.jpg" alt="Реалити-шоу" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="НФ и Фэнтези">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10765.jpg" alt="НФ и Фэнтези" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Мыльная опера">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10766.jpg" alt="Мыльная опера" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Ток-шоу">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/-.jpg" alt="Ток-шоу" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Война и Политика">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/10768.jpg" alt="Война и Политика" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="мультфильм">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/16.jpg" alt="мультфильм" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="драма">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/18.jpg" alt="драма" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="комедия">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/35.jpg" alt="комедия" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="вестерн">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/37.jpg" alt="вестерн" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="криминал">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/80.jpg" alt="криминал" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="детектив">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/9648.jpg" alt="детектив" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="документальный">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/tv/99.jpg" alt="документальный" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div><div class="lang-section"><div class="lang-title">🇨🇳</div>
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">Movies <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(19)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/zh/movie/zh_movie.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/zh/movie/zh_movie.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-poster" title="音乐">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/10402.jpg" alt="音乐" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="爱情">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/10749.jpg" alt="爱情" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="家庭">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/10751.jpg" alt="家庭" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="战争">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/10752.jpg" alt="战争" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="电视电影">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/10770.jpg" alt="电视电影" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="冒险">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/12.jpg" alt="冒险" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="奇幻">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/14.jpg" alt="奇幻" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="动画">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/16.jpg" alt="动画" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="剧情">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/18.jpg" alt="剧情" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="恐怖">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/27.jpg" alt="恐怖" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="动作">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/28.jpg" alt="动作" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="喜剧">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/35.jpg" alt="喜剧" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="历史">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/36.jpg" alt="历史" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="西部">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/37.jpg" alt="西部" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="惊悚">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/53.jpg" alt="惊悚" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="犯罪">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/80.jpg" alt="犯罪" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="科幻">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/878.jpg" alt="科幻" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="悬疑">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/9648.jpg" alt="悬疑" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-poster" title="纪录">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/movie/99.jpg" alt="纪录" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="type-section">
+                    <div class="type-header">
+                        <div class="type-title">TV Shows <span style="font-size:0.8em; color:var(--secondary-text); font-weight:400; margin-left:10px;">(16)</span></div>
+                        <div class="actions">
+                            <button class="btn btn-copy" onclick="copyToClipboard('resources/zh/tv/zh_tv.json')">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                Copy URL
+                            </button>
+                            <a href="resources/zh/tv/zh_tv.json" download class="btn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Download JSON
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            
+                    <div class="card card-wide" title="家庭">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10751.jpg" alt="家庭" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="动作冒险">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10759.jpg" alt="动作冒险" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="儿童">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10762.jpg" alt="儿童" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="新闻">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10763.jpg" alt="新闻" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="真人秀">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10764.jpg" alt="真人秀" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="Sci-Fi & Fantasy">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/Sci-Fi__Fantasy.jpg" alt="Sci-Fi & Fantasy" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="肥皂剧">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10766.jpg" alt="肥皂剧" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="脱口秀">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/10767.jpg" alt="脱口秀" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="War & Politics">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/War__Politics.jpg" alt="War & Politics" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="动画">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/16.jpg" alt="动画" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="剧情">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/18.jpg" alt="剧情" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="喜剧">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/35.jpg" alt="喜剧" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="西部">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/37.jpg" alt="西部" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="犯罪">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/80.jpg" alt="犯罪" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="悬疑">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/9648.jpg" alt="悬疑" loading="lazy">
+                        </div>
+                    </div>
+                    
+                    <div class="card card-wide" title="纪录">
+                        <div class="card-img-wrapper">
+                            <img src="https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/zh/tv/99.jpg" alt="纪录" loading="lazy">
+                        </div>
+                    </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+    </div>
+    
+    <div id="toast" class="toast">Copied to clipboard!</div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast("Copied path to clipboard!");
+            });
+        }
+
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.textContent = msg;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 2000);
+        }
+    </script>
+</body>
+</html>

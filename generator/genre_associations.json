@@ -1,0 +1,212 @@
+{
+  "movie_10402": {
+    "filename": "poster_atv/MusicMovies.png",
+    "id": 10402,
+    "media_type": "movie",
+    "name": "Musik"
+  },
+  "movie_10749": {
+    "filename": "poster_atv/Romance.png",
+    "id": 10749,
+    "media_type": "movie",
+    "name": "Liebesfilm"
+  },
+  "movie_10751": {
+    "filename": "poster_atv/FamilyMovie.png",
+    "id": 10751,
+    "media_type": "movie",
+    "name": "Familie"
+  },
+  "movie_10752": {
+    "filename": "poster_atv/WarStories.png",
+    "id": 10752,
+    "media_type": "movie",
+    "name": "Kriegsfilm"
+  },
+  "movie_10770": {
+    "filename": "poster_atv/ShortFilms.png",
+    "id": 10770,
+    "media_type": "movie",
+    "name": "TV-Film"
+  },
+  "movie_12": {
+    "filename": "poster_atv/ActionAdventures.png",
+    "id": 12,
+    "media_type": "movie",
+    "name": "Abenteuer"
+  },
+  "movie_14": {
+    "filename": "poster_atv/Fantasy.png",
+    "id": 14,
+    "media_type": "movie",
+    "name": "Fantasy"
+  },
+  "movie_16": {
+    "filename": "poster_atv/FavoriteCartoons.png",
+    "id": 16,
+    "media_type": "movie",
+    "name": "Animation"
+  },
+  "movie_18": {
+    "filename": "poster_atv/Drama.png",
+    "id": 18,
+    "media_type": "movie",
+    "name": "Drama"
+  },
+  "movie_27": {
+    "filename": "poster_atv/Horror.png",
+    "id": 27,
+    "media_type": "movie",
+    "name": "Horror"
+  },
+  "movie_28": {
+    "filename": "poster_atv/Action.png",
+    "id": 28,
+    "media_type": "movie",
+    "name": "Action"
+  },
+  "movie_35": {
+    "filename": "poster_atv/Comedy.png",
+    "id": 35,
+    "media_type": "movie",
+    "name": "Komödie"
+  },
+  "movie_36": {
+    "filename": "poster_atv/HistoricalEpics.png",
+    "id": 36,
+    "media_type": "movie",
+    "name": "Historie"
+  },
+  "movie_37": {
+    "filename": "poster_atv/Western.png",
+    "id": 37,
+    "media_type": "movie",
+    "name": "Western"
+  },
+  "movie_53": {
+    "filename": "poster_atv/Thriller.png",
+    "id": 53,
+    "media_type": "movie",
+    "name": "Thriller"
+  },
+  "movie_80": {
+    "filename": "poster_atv/Crime.png",
+    "id": 80,
+    "media_type": "movie",
+    "name": "Krimi"
+  },
+  "movie_878": {
+    "filename": "poster_atv/SpaceEpics.png",
+    "id": 878,
+    "media_type": "movie",
+    "name": "Science Fiction"
+  },
+  "movie_9648": {
+    "filename": "poster_atv/Mystery.png",
+    "id": 9648,
+    "media_type": "movie",
+    "name": "Mystery"
+  },
+  "movie_99": {
+    "filename": "poster_atv/Documentary.png",
+    "id": 99,
+    "media_type": "movie",
+    "name": "Dokumentarfilm"
+  },
+  "tv_10751": {
+    "filename": "poster_atv/FamilyMovie.png",
+    "id": 10751,
+    "media_type": "tv",
+    "name": "Familie"
+  },
+  "tv_10759": {
+    "filename": "poster_atv/ActionAdventures.png",
+    "id": 10759,
+    "media_type": "tv",
+    "name": "Action & Adventure"
+  },
+  "tv_10762": {
+    "filename": "poster_atv/KidsFamily.png",
+    "id": 10762,
+    "media_type": "tv",
+    "name": "Kids"
+  },
+  "tv_10763": {
+    "filename": "poster_atv/BasedOnBook.png",
+    "id": 10763,
+    "media_type": "tv",
+    "name": "News"
+  },
+  "tv_10764": {
+    "filename": "poster_atv/Reality.png",
+    "id": 10764,
+    "media_type": "tv",
+    "name": "Reality"
+  },
+  "tv_10765": {
+    "filename": "poster_atv/SciFi.png",
+    "id": 10765,
+    "media_type": "tv",
+    "name": "Sci-Fi & Fantasy"
+  },
+  "tv_10766": {
+    "filename": "poster_atv/RomComs.png",
+    "id": 10766,
+    "media_type": "tv",
+    "name": "Soap"
+  },
+  "tv_10767": {
+    "filename": "poster_atv/HilariousDuos.png",
+    "id": 10767,
+    "media_type": "tv",
+    "name": "Talk"
+  },
+  "tv_10768": {
+    "filename": "poster_atv/WarStories.png",
+    "id": 10768,
+    "media_type": "tv",
+    "name": "War & Politics"
+  },
+  "tv_16": {
+    "filename": "poster_atv/AnimatedHijinks.png",
+    "id": 16,
+    "media_type": "tv",
+    "name": "Animation"
+  },
+  "tv_18": {
+    "filename": "poster_atv/PeriodDramas.png",
+    "id": 18,
+    "media_type": "tv",
+    "name": "Drama"
+  },
+  "tv_35": {
+    "filename": "poster_atv/OutrageousComedies.png",
+    "id": 35,
+    "media_type": "tv",
+    "name": "Komödie"
+  },
+  "tv_37": {
+    "filename": "poster_atv/Western.png",
+    "id": 37,
+    "media_type": "tv",
+    "name": "Western"
+  },
+  "tv_80": {
+    "filename": "poster_atv/Crime.png",
+    "id": 80,
+    "media_type": "tv",
+    "name": "Krimi"
+  },
+  "tv_9648": {
+    "filename": "poster_atv/Classics.png",
+    "id": 9648,
+    "media_type": "tv",
+    "name": "Mystery"
+  },
+  "tv_99": {
+    "filename": "poster_atv/NaturalWonders.png",
+    "id": 99,
+    "media_type": "tv",
+    "name": "Dokumentarfilm"
+  }
+}

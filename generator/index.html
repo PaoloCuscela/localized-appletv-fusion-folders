@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusion Folder Generator UI</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2 { font-weight: 700; color: #1d1d1f; margin-bottom: 1rem; }
+        h1 { text-align: center; margin-bottom: 2rem; }
+        
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+            margin-bottom: 1rem;
+        }
+        
+        .form-group { flex: 1; }
+        label { display: block; margin-bottom: 0.5rem; font-weight: 600; font-size: 0.9rem; }
+        input[type="text"], input[type="number"] {
+            width: 100%; padding: 0.6rem; border: 1px solid #d2d2d7; border-radius: 8px; font-size: 1rem;
+        }
+
+        button.primary-btn {
+            background-color: #0071e3; color: white; border: none; padding: 0.7rem 1.5rem;
+            font-size: 1rem; font-weight: 600; border-radius: 8px; cursor: pointer;
+            transition: background-color 0.2s; white-space: nowrap;
+        }
+        button.primary-btn:hover { background-color: #0077ed; }
+        button.primary-btn:disabled { background-color: #ccc; cursor: not-allowed; }
+
+        .columns-container {
+            display: flex;
+            gap: 2rem;
+        }
+        .column {
+            flex: 1;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+        }
+        .column-header {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f5f5f7;
+            text-transform: uppercase;
+            color: #555;
+        }
+
+        .genre-item {
+            display: flex;
+            align-items: center;
+            padding: 0.8rem;
+            border-bottom: 1px solid #eee;
+            gap: 1rem;
+        }
+        .genre-name {
+            flex: 1;
+            font-weight: 500;
+        }
+        .genre-preview {
+            width: 80px;
+            height: 45px;
+            background: #f0f0f0;
+            border-radius: 4px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border: 1px solid #ddd;
+        }
+        .genre-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .genre-preview span {
+            font-size: 10px;
+            color: #999;
+        }
+
+        /* Modal */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1000; 
+            left: 0; top: 0; width: 100%; height: 100%; 
+            background-color: rgba(0,0,0,0.5);
+            align-items: center; justify-content: center;
+        }
+        .modal-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            width: 80%;
+            max-width: 900px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+        .close-modal {
+            position: absolute; top: 1rem; right: 1rem; font-size: 1.5rem; cursor: pointer;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+            align-items: start;
+        }
+        .grid-item {
+            cursor: pointer;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 2px solid transparent;
+            background: #f9f9f9;
+            display: flex; 
+            flex-direction: column;
+        }
+        .grid-item:hover {
+            border-color: #0071e3;
+        }
+        .grid-item img {
+            width: 100%; height: auto; display: block;
+        }
+        .grid-item p {
+            font-size: 11px; text-align: center; margin: 4px; word-break: break-all;
+        }
+
+        #generateSection {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Genre Cover Generator</h1>
+
+    <!-- Config -->
+    <div class="card">
+        <div class="controls">
+            <div class="form-group" style="max-width: 300px; margin-right: 1rem;">
+                <label for="apiKey">TMDB API Key</label>
+                <input type="text" id="apiKey" placeholder="Insert TMDB API Key">
+            </div>
+            <div class="form-group" style="max-width: 100px; margin-right: 1rem;">
+                <label for="language">Language</label>
+                <input type="text" id="language" value="it" placeholder="en, it">
+            </div>
+            <button class="primary-btn" onclick="saveConfigAndFetch()" style="margin-bottom: 2px;">Load Genres</button>
+            <button class="primary-btn" style="background-color: #28cd41; margin-bottom: 2px;" onclick="saveAssociations()">Save Mapping</button>
+        </div>
+        <p style="font-size: 0.9rem; color: #666;">Enter your TMDB API Key (saved locally). Then click Load Genres to fetch data.</p>
+    </div>
+
+    <!-- Main Columns -->
+    <div class="columns-container" id="mainContainer" style="display:none;">
+        <!-- Movie Column -->
+        <div class="column">
+            <div class="column-header">Movies</div>
+            <div id="movieList"></div>
+        </div>
+
+        <!-- TV Column -->
+        <div class="column">
+            <div class="column-header">TV Shows</div>
+            <div id="tvList"></div>
+        </div>
+    </div>
+
+    <!-- Generate Button -->
+    <div class="card" id="generateSection" style="display:none;">
+        <h3 style="margin-bottom: 1.5rem;">Generation Settings</h3>
+        
+        <div style="display: flex; gap: 2rem; justify-content: center; margin-bottom: 1.5rem; flex-wrap: wrap;">
+            <div class="form-group" style="flex: 2; min-width: 300px; text-align: left;">
+                 <label for="font">Font Path</label>
+                 <input type="text" id="font" value="assets/fonts/SF-Pro-Display-Bold.otf">
+            </div>
+             <div class="form-group" style="flex: 1; min-width: 120px; max-width: 150px; text-align: left;">
+                 <label for="fontsize">Font Size</label>
+                 <input type="number" id="fontsize" value="100">
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+             <div class="form-group" style="flex: 1; min-width: 300px; max-width: 800px; text-align: left;">
+                 <label for="metadataBaseUrl">Metadata Base URL (Optional)</label>
+                 <input type="text" id="metadataBaseUrl" placeholder="https://raw.githubusercontent.com/username/repo/main" style="width: 100%;">
+                 <small style="color: #888; display: block; margin-top: 4px;">If set, JSON output will use this prefix for image URLs. e.g. <code>https://.../it/movie/Action.jpg</code></small>
+            </div>
+        </div>
+
+        <button class="primary-btn" id="genBtn" onclick="generateCovers()" style="font-size: 1.2rem; padding: 1rem 3rem;">GENERATE ALL COVERS</button>
+        <div id="status" style="margin-top: 1rem; font-weight: bold;"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2>Select Background Image</h2>
+            <div class="image-grid" id="modalGrid"></div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let currentGenres = { movie: [], tv: [] };
+        let associations = {}; // Key: "movie_28", Value: { filename: "...", id: 28, name: "Action", media_type: "movie" }
+        let availableImages = [];
+        let currentSelectionKey = null;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadConfig();
+            loadImages();
+            loadAssociations();
+        });
+
+        async function loadConfig() {
+            try {
+                const res = await fetch('/api/config');
+                const data = await res.json();
+                if (data.tmdb_api_key) {
+                    document.getElementById('apiKey').value = data.tmdb_api_key;
+                }
+            } catch (e) { console.error("Error loading config", e); }
+        }
+
+        async function saveConfigAndFetch() {
+            const key = document.getElementById('apiKey').value;
+            if (key) {
+                try {
+                    await fetch('/api/config', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({ tmdb_api_key: key })
+                    });
+                } catch(e) {}
+            }
+            fetchGenres();
+        }
+
+        async function loadImages() {
+            try {
+                const res = await fetch('/images');
+                availableImages = await res.json();
+            } catch (e) { console.error(e); }
+        }
+
+        async function loadAssociations() {
+            try {
+                const res = await fetch('/api/associations');
+                const data = await res.json();
+                if (data) associations = data;
+            } catch (e) {
+                console.error("No saved associations found or error loading.");
+            }
+        }
+
+        async function saveAssociations() {
+            try {
+                await fetch('/api/associations', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(associations)
+                });
+                alert("Mapping saved!");
+            } catch (e) { alert("Error saving"); }
+        }
+
+        async function fetchGenres() {
+            const lang = document.getElementById('language').value;
+            const key = document.getElementById('apiKey').value;
+            if(!lang) return alert("Enter language");
+            if(!key) return alert("Enter TMDB API Key");
+
+            try {
+                const res = await fetch(`/api/genres/${lang}?api_key=${key}`);
+                if (!res.ok) {
+                    const err = await res.json();
+                    throw new Error(err.error || "Failed to fetch genres");
+                }
+                const data = await res.json();
+                
+                currentGenres = data;
+                
+                // Update names in existing associations to match new language
+                ['movie', 'tv'].forEach(type => {
+                    if (currentGenres[type]) {
+                        currentGenres[type].forEach(g => {
+                            const key = `${type}_${g.id}`;
+                            if (associations[key]) {
+                                associations[key].name = g.name;
+                            }
+                        });
+                    }
+                });
+
+                renderLists();
+                document.getElementById('mainContainer').style.display = 'flex';
+                document.getElementById('generateSection').style.display = 'block';
+
+            } catch (e) {
+                alert(e.message);
+            }
+        }
+
+        function renderLists() {
+            renderColumn('movie', currentGenres.movie, document.getElementById('movieList'));
+            renderColumn('tv', currentGenres.tv, document.getElementById('tvList'));
+        }
+
+        function renderColumn(type, list, container) {
+            container.innerHTML = '';
+            list.forEach(g => {
+                const key = `${type}_${g.id}`;
+                const assoc = associations[key];
+                
+                const div = document.createElement('div');
+                div.className = 'genre-item';
+                
+                // Image preview logic
+                let imgHtml = '<span>Select</span>';
+                if (assoc && assoc.filename) {
+                    imgHtml = `<img src="/images/${assoc.filename}" alt="bg">`;
+                }
+
+                div.innerHTML = `
+                    <div class="genre-name">${g.name}</div>
+                    <div class="genre-preview" onclick="openModal('${key}', ${g.id}, '${g.name.replace(/'/g, "\\'")}', '${type}')">
+                        ${imgHtml}
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        // Modal Logic
+        function openModal(key, id, name, type) {
+            currentSelectionKey = { key, id, name, type };
+            const grid = document.getElementById('modalGrid');
+            grid.innerHTML = '';
+            
+            // Allow deselect
+            const noneDiv = document.createElement('div');
+            noneDiv.className = 'grid-item';
+            noneDiv.style.background = '#ddd';
+            noneDiv.style.display = 'flex';
+            noneDiv.style.alignItems = 'center';
+            noneDiv.style.justifyContent = 'center';
+            noneDiv.innerHTML = 'NONE';
+            noneDiv.onclick = () => selectImage(null);
+            grid.appendChild(noneDiv);
+
+            // Group images by folder
+            const groups = {};
+            availableImages.forEach(img => {
+                const parts = img.split('/');
+                let folder = 'General';
+                let filename = img;
+                
+                if (parts.length > 1) {
+                    folder = parts.slice(0, -1).join('/');
+                    filename = parts[parts.length - 1];
+                }
+                
+                if (!groups[folder]) groups[folder] = [];
+                
+                // Get name without extension
+                const nameNoExt = filename.replace(/\.[^/.]+$/, "");
+                groups[folder].push({ path: img, display: nameNoExt });
+            });
+
+            // Iterate sorted groups
+            Object.keys(groups).sort().forEach(folder => {
+                // Section Header
+                const header = document.createElement('h3');
+                header.textContent = folder;
+                header.style.gridColumn = '1 / -1';
+                header.style.marginTop = '1.5rem';
+                header.style.marginBottom = '0.5rem';
+                header.style.borderBottom = '1px solid #eee';
+                header.style.textTransform = 'capitalize';
+                grid.appendChild(header);
+
+                // Items
+                groups[folder].sort((a,b) => a.display.localeCompare(b.display)).forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'grid-item';
+                    div.innerHTML = `
+                        <img src="/images/${item.path}" loading="lazy">
+                        <p title="${item.display}">${item.display}</p>
+                    `;
+                    div.onclick = () => selectImage(item.path);
+                    grid.appendChild(div);
+                });
+            });
+
+            document.getElementById('imageModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+            currentSelectionKey = null;
+        }
+
+        function selectImage(filename) {
+            if (!currentSelectionKey) return;
+            const { key, id, name, type } = currentSelectionKey;
+            
+            if (filename) {
+                associations[key] = {
+                    id: id,
+                    name: name,
+                    media_type: type,
+                    filename: filename
+                };
+            } else {
+                delete associations[key];
+            }
+            
+            renderLists(); // Refresh UI
+            closeModal();
+            // Auto-save on selection? Optional. Let's rely on Save button or just memory.
+        }
+
+        async function generateCovers() {
+            const btn = document.getElementById('genBtn');
+            const status = document.getElementById('status');
+            const language = document.getElementById('language').value;
+            const font = document.getElementById('font').value;
+            const fontsize = document.getElementById('fontsize').value;
+            const baseUrl = document.getElementById('metadataBaseUrl').value;
+
+            if (Object.keys(associations).length === 0) {
+                return alert("No images assigned to genres!");
+            }
+
+            btn.disabled = true;
+            status.textContent = "Generating covers...";
+            status.style.color = "blue";
+
+            try {
+                const res = await fetch('/generate_custom', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        language,
+                        associations,
+                        font,
+                        fontsize,
+                        baseUrl
+                    })
+                });
+                
+                const result = await res.json();
+                if (res.ok && result.success) {
+                    status.textContent = `Done! Generated ${result.count} covers. Check Output folder.`;
+                    status.style.color = "green";
+                } else {
+                    status.textContent = `Error: ${result.error || result.stderr || "Unknown error"}`;
+                    status.style.color = "red";
+                }
+            } catch (e) {
+                console.error(e);
+                status.textContent = "Server communication error.";
+                status.style.color = "red";
+            }
+            btn.disabled = false;
+        }
+
+        // Close modal on outside click
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
