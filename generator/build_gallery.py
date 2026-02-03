@@ -185,11 +185,12 @@ def generate_gallery():
                 if not items:
                     continue
 
-                rel_json_path = f"resources/{lang}/{media_type}/{lang}_{media_type}.json"
+                rel_json_path = f"https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/{lang}/{media_type}/{lang}_{media_type}.json"
                 
                 # Determine card style based on first item or media_type
-                is_wide = media_type == 'tv'
-                card_class = "card-wide" if is_wide else "card-poster"
+                # Always use vertical poster style as requested (2:3)
+                is_wide = False
+                card_class = "card-poster"
                 type_label = "TV Shows" if media_type == 'tv' else "Movies"
 
                 # Cards HTML

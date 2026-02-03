@@ -1,187 +1,7 @@
 [
   {
-    "id": "12B7857F-D2A8-4F25-B030-BA8384ED9EF2",
-    "name": "музыка",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10402.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10402
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "7EFFC138-C051-4ACE-885F-E0496DCC56C9",
-    "name": "мелодрама",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10749.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10749
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "19F19AEB-DBEA-4844-B67C-A8CA85941279",
-    "name": "семейный",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10751.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10751
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "030521BF-59C5-4724-9767-750F74335F30",
-    "name": "военный",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10752.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10752
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "07611FE6-385D-46C3-8C42-DDD1361C8577",
-    "name": "телевизионный фильм",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10770.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10770
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "16257101-1BDE-4A6E-BE5D-9CF7BEAEAFFA",
-    "name": "приключения",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/12.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          12
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "ABC8FB4A-66A9-44D2-8868-9161DAA68F7F",
-    "name": "фэнтези",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/14.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          14
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "240A65D4-B4BA-45F3-875D-05743EA04EBE",
-    "name": "мультфильм",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/16.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          16
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "93EAB576-2176-4942-9061-803C9A80CC63",
-    "name": "драма",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/18.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          18
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "599EE30C-FA68-480F-BAB9-716C0807102E",
-    "name": "ужасы",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/27.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          27
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "95E9CA96-2BB3-4B0D-AC8E-12F68FAADF96",
-    "name": "боевик",
+    "id": "9DBFD33D-84FF-44DE-9DD4-986AA88453ED",
+    "name": "Боевик",
     "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/28.jpg",
@@ -198,44 +18,8 @@
     }
   },
   {
-    "id": "5D31CD88-F97C-4EAE-9FBE-A14085B1C287",
-    "name": "комедия",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/35.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          35
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "EEF4BB3F-44AC-4A52-8B07-701372FEED83",
-    "name": "история",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/36.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          36
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "CA8537CE-886E-49F4-BE82-3EF3130AF881",
-    "name": "вестерн",
+    "id": "D653F4BB-30E7-4A85-A893-1E2C43295B89",
+    "name": "Вестерн",
     "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/37.jpg",
@@ -252,62 +36,26 @@
     }
   },
   {
-    "id": "F76A4497-51EE-418C-A3EC-04B65E340F87",
-    "name": "триллер",
+    "id": "4AF4316B-C4FE-4C62-BDE2-CFA2A11D4347",
+    "name": "Военный",
     "layout": "Poster",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/53.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10752.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
         "type": "movie",
         "sortBy": "popularity.desc",
         "includeGenres": [
-          53
+          10752
         ],
         "withOriginalLanguage": "ru"
       }
     }
   },
   {
-    "id": "2BDD762A-BA03-4060-906D-3F3A97659B5B",
-    "name": "криминал",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/80.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          80
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "4284E899-6054-4AE2-ABE9-6C18FBD3DA29",
-    "name": "фантастика",
-    "layout": "Poster",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/878.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "movie",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          878
-        ],
-        "withOriginalLanguage": "ru"
-      }
-    }
-  },
-  {
-    "id": "2878B91B-23E5-4DA1-B235-A4C872479337",
-    "name": "детектив",
+    "id": "59FAEFEA-D742-412D-98C0-53AC986984FA",
+    "name": "Детектив",
     "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/9648.jpg",
@@ -324,8 +72,8 @@
     }
   },
   {
-    "id": "623AC38F-A22C-4B80-BB66-D5D3992DAC32",
-    "name": "документальный",
+    "id": "FFA9217F-42D6-4C93-AACA-8313CDC06285",
+    "name": "Документальный",
     "layout": "Poster",
     "hideTitle": true,
     "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/99.jpg",
@@ -336,6 +84,258 @@
         "sortBy": "popularity.desc",
         "includeGenres": [
           99
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "9F694055-ACAA-4022-A0AF-155BD3D437E9",
+    "name": "Драма",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/18.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          18
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "5B054637-2787-4F5C-836D-71F304795B0F",
+    "name": "История",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/36.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          36
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "70999728-76CA-4F5E-8021-D28DC9C14932",
+    "name": "Комедия",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/35.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          35
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "73DE14F2-72AA-47B9-8504-53651FBBDA1D",
+    "name": "Криминал",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/80.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          80
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "549F0215-4035-48D9-B7CC-AE25C54BA699",
+    "name": "Мелодрама",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10749.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10749
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "E9AE280F-13BA-4E1D-AE54-BBAF25A12E8D",
+    "name": "Музыка",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10402.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10402
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "9BB38416-2262-4258-AC0C-6DE373CF7253",
+    "name": "Мультфильм",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/16.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          16
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "54FED546-9B68-48AE-A71B-E81772A58837",
+    "name": "Приключения",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/12.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          12
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "9AC7AAC3-9AEF-470A-A9E4-4A30473D3CD7",
+    "name": "Семейный",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10751.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10751
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "6A9036C9-4A39-4C86-832F-0BD23E0A70DA",
+    "name": "Телевизионный Фильм",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/10770.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10770
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "7A4D1101-4F09-47CC-B7A8-0C29A5DF0AC2",
+    "name": "Триллер",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/53.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          53
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "8293C665-B6B9-4451-814B-F1D24D3CB883",
+    "name": "Ужасы",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/27.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          27
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "00512D74-533A-4CB7-8F86-912C6E2E0334",
+    "name": "Фантастика",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/878.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          878
+        ],
+        "withOriginalLanguage": "ru"
+      }
+    }
+  },
+  {
+    "id": "F7671F80-2866-43D1-84F1-9AF1C8E8FCEB",
+    "name": "Фэнтези",
+    "layout": "Poster",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/ru/movie/14.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "movie",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          14
         ],
         "withOriginalLanguage": "ru"
       }

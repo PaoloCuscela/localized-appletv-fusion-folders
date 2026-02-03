@@ -131,7 +131,10 @@ def generate_custom():
 
     for genre_key, info in associations.items():
         filename = info.get('filename')
-        genre_name = info.get('name')
+        # Ensure Title Case for all words (e.g. "commedia musicale" -> "Commedia Musicale")
+        raw_name = info.get('name')
+        genre_name = raw_name.title() if raw_name else raw_name
+        
         media_type = info.get('media_type') 
         
         if not filename or not genre_name or not media_type:
@@ -204,6 +207,9 @@ def generate_custom():
 
     # Salva i JSON riassuntivi
     for mtype in ['movie', 'tv']:
+        # Sort genres alphabetically by name
+        output_meta[mtype].sort(key=lambda x: x['name'])
+
         json_dir = os.path.join(OUTPUT_DIR, language, mtype)
         if not os.path.exists(json_dir):
             os.makedirs(json_dir, exist_ok=True)

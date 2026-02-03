@@ -1,24 +1,6 @@
 [
   {
-    "id": "4DA02169-474C-43D6-BE57-FCF4CD58D042",
-    "name": "Familie",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Familie.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10751
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "FBD90FD4-A0DA-4DCB-87FC-56EA5239DBE7",
+    "id": "BB190FFC-0980-4DDA-812B-2516B5648B26",
     "name": "Action & Adventure",
     "layout": "Wide",
     "hideTitle": true,
@@ -36,133 +18,7 @@
     }
   },
   {
-    "id": "3980C8C4-25E7-4B37-BA5F-CD4C0EA04675",
-    "name": "Kids",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Kids.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10762
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "494C504B-77AD-448C-A5E5-0FCE950222A7",
-    "name": "News",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/News.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10763
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "7E98E05C-70BF-43B6-B580-0609589BA58A",
-    "name": "Reality",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Reality.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10764
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "92ED4168-BBA0-4A2B-9C25-3FA95AAAF91C",
-    "name": "Sci-Fi & Fantasy",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Sci-Fi__Fantasy.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10765
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "1634CA7A-3805-4960-AE2B-9005FD39B175",
-    "name": "Soap",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Soap.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10766
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "EA32B12D-DCB2-497E-AD64-7A5DE977548E",
-    "name": "Talk",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Talk.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10767
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "D09006F1-0169-47BC-82C0-C224717D540C",
-    "name": "War & Politics",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/War__Politics.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          10768
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "BCFC1DD2-9ACD-441C-A0CC-20CCA9F89006",
+    "id": "59E79CBF-FD1D-4D3A-8689-8F2881958771",
     "name": "Animation",
     "layout": "Wide",
     "hideTitle": true,
@@ -180,7 +36,25 @@
     }
   },
   {
-    "id": "6D91B63F-2A13-4329-AFB1-181B7FA49584",
+    "id": "6A957BA2-21E2-4C0F-9FDB-C2418A2A9BF9",
+    "name": "Dokumentarfilm",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Dokumentarfilm.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          99
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "D6A48426-684D-4B34-8927-6EA71458A4D3",
     "name": "Drama",
     "layout": "Wide",
     "hideTitle": true,
@@ -198,7 +72,43 @@
     }
   },
   {
-    "id": "DBEBFC7E-398B-4603-AE0A-23E9FE8E8DDE",
+    "id": "6F448315-8609-4FAC-A396-7FD2C06A806F",
+    "name": "Familie",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Familie.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10751
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "9D192B19-D963-4B1A-B51B-C3C6E1482855",
+    "name": "Kids",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Kids.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10762
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "6CE5036C-E52A-4438-8340-5191A292BB5C",
     "name": "Komödie",
     "layout": "Wide",
     "hideTitle": true,
@@ -216,25 +126,7 @@
     }
   },
   {
-    "id": "51FF71DE-3835-4581-90A5-C4CAE9EBD576",
-    "name": "Western",
-    "layout": "Wide",
-    "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Western.jpg",
-    "dataSource": {
-      "kind": "tmdbDiscover",
-      "payload": {
-        "type": "tv",
-        "sortBy": "popularity.desc",
-        "includeGenres": [
-          37
-        ],
-        "withOriginalLanguage": "de"
-      }
-    }
-  },
-  {
-    "id": "E1896BF5-2C42-4AEC-9503-A52A03F21620",
+    "id": "BB4251EC-C2C1-439F-9084-9DF490F28BDC",
     "name": "Krimi",
     "layout": "Wide",
     "hideTitle": true,
@@ -252,7 +144,7 @@
     }
   },
   {
-    "id": "BF45B5EF-BE4E-42B4-B1A8-77D4DD1F034F",
+    "id": "6D786C7A-4E61-4E85-84BB-7ED5DB66EA25",
     "name": "Mystery",
     "layout": "Wide",
     "hideTitle": true,
@@ -270,18 +162,126 @@
     }
   },
   {
-    "id": "E05A225A-7B09-4E56-AB27-B0CDBCC3FE98",
-    "name": "Dokumentarfilm",
+    "id": "6150DA57-4587-4849-A0D9-D87B9EE00FC4",
+    "name": "News",
     "layout": "Wide",
     "hideTitle": true,
-    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Dokumentarfilm.jpg",
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/News.jpg",
     "dataSource": {
       "kind": "tmdbDiscover",
       "payload": {
         "type": "tv",
         "sortBy": "popularity.desc",
         "includeGenres": [
-          99
+          10763
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "508C6436-008E-4DF2-8F2C-CFF6B379271A",
+    "name": "Reality",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Reality.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10764
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "A8E9E884-2347-4D07-BFF4-675EE68AF911",
+    "name": "Sci-Fi & Fantasy",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Sci-Fi__Fantasy.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10765
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "74FE101F-3084-467A-8A04-CB743DD664C0",
+    "name": "Soap",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Soap.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10766
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "CA0D40A6-4B48-4A40-B023-8BD0F41FE92C",
+    "name": "Talk",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Talk.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10767
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "18F85312-D2F8-440B-97F4-C7D3FB8D0F1F",
+    "name": "War & Politics",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/War__Politics.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          10768
+        ],
+        "withOriginalLanguage": "de"
+      }
+    }
+  },
+  {
+    "id": "AD917756-F802-410E-AE8F-E45A03849A9E",
+    "name": "Western",
+    "layout": "Wide",
+    "hideTitle": true,
+    "backgroundImageURL": "https://raw.githubusercontent.com/PaoloCuscela/localized-appletv-fusion-folders/main/resources/de/tv/Western.jpg",
+    "dataSource": {
+      "kind": "tmdbDiscover",
+      "payload": {
+        "type": "tv",
+        "sortBy": "popularity.desc",
+        "includeGenres": [
+          37
         ],
         "withOriginalLanguage": "de"
       }
